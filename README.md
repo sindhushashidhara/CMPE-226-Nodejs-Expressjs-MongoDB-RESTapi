@@ -57,6 +57,7 @@ o	Books.jade
 o	Error.jade
 o	Mainscreen.jade
 o	Nailpolish.jade
+o Product.jade
 o	Tv.jade
 -	package.json - package info for tutorial project
 
