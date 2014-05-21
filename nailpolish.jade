@@ -1,0 +1,59 @@
+extends layout
+block content
+    h1 CMPE 226 Database Systems Home Depot </em>
+    h3 <em> Shop By Department </em>
+    
+    <span>
+    h2 <strong> NailPolish </strong>
+    table
+    
+    thead 
+        ul
+            each p, i in nailpolish
+                <tr>
+                <td>
+                li
+                         <img src= "http://cdn.madamenoire.com/wp-content/uploads/2012/09/nail-polish.jpeg" width="200" height="200"/><br/>
+                         <br/>
+                        a(href="mailto:#{p.category}")= p.productID 
+                        <br/>
+                        a(href="mailto:#{p.category}")= p.description 
+                        <br/>  
+                        a(href="mailto:#{p.category}")= p.category
+                        <br/>
+                        a(href="mailto:#{p.category}")= p.color
+                        <br/>
+                        a(href="mailto:#{p.category}")= p.price 
+                        <br/>
+                        <br/>
+                        <br/>
+                </tr>
+                </td>
+    
+    tbody
+    </span>
+    <b>
+    table
+    thead <br/><a href="">Appliances</a><br/>
+        th  <br/> &nbsp; &nbsp;&nbsp; &nbsp;<a href='/product'>Refrigerator</a><br/>
+
+    thead <br/><a href="">Electronics</a><br/>
+         th  <br/> &nbsp; &nbsp;&nbsp; &nbsp;<a href='/tv'>TV</a><br/>
+
+    thead <br/><a href='/books'>Books</a><br/>
+
+    thead <br/><a href="">Women Accessories</a><br/>
+        th  <br/> &nbsp;&nbsp;&nbsp;&nbsp;<a href='/nailpolish'>NailPolish</a><br/> 
+
+    thead <br/><a href="">Pharmacy</a><br/>
+
+    thead <br/><a href="">Grocery</a><br/>
+
+    thead <br/><a href="">Photo and Gifts</a><br/>
+
+    thead <br/><a href="">Toys and Video Games</a><br/>
+
+    thead <br/><a href="">Baby and Kids</a><br/>
+
+    tbody
+    </b>
