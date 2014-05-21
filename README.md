@@ -1,4 +1,4 @@
-CMPE-226-Nodejs-Expressjs-MongoDB-RESTapi
+CMPE-226-Nodejs-Expressjs-MongoDB-REST API
 =========================================
 
 Build a prototype of HomeDepot using Nodejs, Express, Jade, MongoDB and REST API
