@@ -8,17 +8,18 @@ The project mainly involves the front end development of the prototype of HomeDe
 Front end design has two parts. Left side of the screen allows customer to choose the catalog and right side of the screen shows best offers, catalog of refrigerator, tv, books and nail polish on selection.
 
 Customer shops by department
-Appliances
--	Refrigerator
-Electronics
--	TV
-Books
-NailPolish
-Pharmacy
-Grocery
-Photos and Gifts
-Toys and Video Games
-Baby and Kids
+•	Appliances
+o	   Refrigerator
+•	Electronics
+o	   TV
+•	Books
+•	NailPolish
+•	Pharmacy
+•	Grocery
+•	Photos and Gifts
+•	Toys and Video Games
+•	Baby and Kids
+
 
 Catalog of refrigerator, tv, books and nail polish on selection
 MongoDB supports multivalued attribute. 
