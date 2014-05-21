@@ -33,3 +33,12 @@ Books - ProductID, Description, Category, Price, ISBN, Country
 
 
 
+Quick Start
+-	Install Nodejs
+-	Install MongoDB
+-	Install Express 
+-	Create an Express project nodetest1
+-	Edit dependencies in package.json
+-	Install dependencies  > npm install
+-	Test the server by running npm start
+
