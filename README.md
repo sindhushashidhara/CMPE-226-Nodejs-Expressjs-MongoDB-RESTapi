@@ -60,7 +60,7 @@ o	Nailpolish.jade
 o Product.jade
 o	Tv.jade
 -	package.json - package info for tutorial project
-
+- style.css
 
 References
 http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
