@@ -1,0 +1,52 @@
+use nodetest1
+Refrigerator
+db.product.insert( { productID: 100, description: " French Door Refrigerators ", category: "Appliances", price:2400.00, brand: "Samsung", capacity: "22.4 cu. ft. " } )
+db.product.insert( { productID: 101, description: " Top Freezer Refrigerators", category: "Appliances", price:1898.00, brand: "Whirpool", capacity: "10.6 cu. ft. " } )
+db.product.insert( { productID: 102, description: " French Door Refrigerators ", category: "Appliances", price:2000.00, brand: "Samsung", capacity: "22.4 cu. ft. " } )
+db.product.insert( { productID: 103, description: " French Door Refrigerators ", category: "Appliances", price:2996.00, brand: "LG", capacity: "24.6 cu. ft. " } )
+db.product.insert( { productID: 104, description: " Side By Side Refrigerators", category: "Appliances", price:497.00, brand: "GE", capacity: "16.5 cu. ft. " } )
+db.product.insert( { productID: 105, description: " French Door Refrigerators ", category: "Appliances", price: 447.00, brand: "GE", capacity: "15.7 cu. ft. " } )
+db.product.insert( { productID: 106, description: " Metallic Finish Refrigerators ", category: "Appliances", price: 668.00, brand: "Maytag", capacity: "20.6 cu. ft. " } )
+db.product.insert( { productID: 107, description: " White Refrigerators ", category: "Appliances", price:73100, brand: "Frididaire", capacity: "21.0 cu. ft. " } )
+db.product.insert( { productID: 108, description: " Black Refrigerators ", category: "Appliances", price: 648.00, brand: " Frididaire", capacity: "20.53 cu. ft. " } )
+db.product.insert( { productID: 109, description: " French Door Refrigerators ", category: "Appliances", price: 359.00, brand: "Vissani", capacity: "10 cu. ft. " } )
+
+TV
+db.product.insert( { productID: 200, description: " LCD Display Technology ", category: "Electronics", price: 579.00, brand: "Magnavox", screensize: "40 in. " } )
+db.product.insert( { productID: 201, description: " LED Display Technology ", category: "Electronics", price:699.00, brand: "Seiki", screensize: "55 in. " } )
+db.product.insert( { productID: 202, description: " LCD Display Technology ", category: "Electronics", price:499.00, brand: "Polaroid", screensize: "46 in. " } )
+db.product.insert( { productID: 203, description: " LED Display Technology ", category: "Electronics", price: 249.00, brand: "Seiki", screensize: "32 in. " } )
+db.product.insert( { productID: 204, description: " LED Display Technology ", category: "Electronics", price:379.00, brand: "Magnavox", screensize: "40 in. " } )
+db.product.insert( { productID: 205, description: " LCD Display Technology ", category: "Electronics", price:349.00, brand: "Seiki", screensize: "40 in. " } )
+db.product.insert( { productID: 206, description: " LED Display Technology ", category: "Electronics", price:1049.00, brand: "Seiki ", screensize: "65 in. " } )
+db.product.insert( { productID: 207, description: " LCD Display Technology ", category: "Electronics", price:279.00, brand: "Polaroid", screensize: "32 in. " } )
+db.product.insert( { productID: 208, description: " LED Display Technology ", category: "Electronics", price:219.00, brand: "Magnavox", screensize: "29 in. " } )
+db.product.insert( { productID: 209, description: "LCD Display Technology ", category: "Electronics", price:189.00, brand: "Magnavox", screensize: "24 in. " } )
+
+NailPolish
+db.product.insert( { productID: 300, description: "Glossy Nailpolish ", category: "NailPolish", price:4.00, color: "pink" } )
+db.product.insert( { productID: 301, description: "0.001 Acetone concentration ", category: "NailPolish", price:7.00, color: "orange" } )
+db.product.insert( { productID: 302, description: "Shinny Nailpolish ", category: "NailPolish", price:24.00, color: "silver" } )
+db.product.insert( { productID: 303, description: "Maybelline Nailpolish ", category: "NailPolish", price:6.00, color: "red" } )
+db.product.insert( { productID: 304, description: "Lakmi Nailpolish ", category: "NailPolish", price:4.00, color: "pink" } )
+db.product.insert( { productID: 305, description: "Glossy Nailpolish ", category: "NailPolish", price:8.00, color: "green" } )
+db.product.insert( { productID: 306, description: "Glossy Nailpolish ", category: "NailPolish", price:10.00, color: "pink" } )
+db.product.insert( { productID: 307, description: "charcoal Nailpolish ", category: "NailPolish", price:6.00, color: "white" } )
+db.product.insert( { productID: 308, description: "Maybelline Nailpolish ", category: "NailPolish", price:3.00, color: "pink" } )
+db.product.insert( { productID: 309, description: "Glossy Nailpolish ", category: "NailPolish", price:5.00, color: "blue" } )
+
+Books
+db.product.insert( { productID: 400, description: "Unix ", category: "Books", price: 579.00, isbn: "1111", country: "US" } )
+db.product.insert( { productID: 401, description: "Java ", category: "Books", price: 579.00, isbn: "2222", country: "US" } )
+db.product.insert( { productID: 402, description: "C++", category: "Books", price: 579.00, isbn: "3333", country: "US" } )
+db.product.insert( { productID: 403, description: "Python", category: "Books", price: 579.00, isbn: "4444", country: "US" } )
+db.product.insert( { productID: 404, description: "Ruby", category: "Books", price: 579.00, isbn: "5555", country: "US" } )
+db.product.insert( { productID: 405, description: "JSP", category: "Books", price: 579.00, isbn: "6666", country: "US" } )
+db.product.insert( { productID: 406, description: "Unix ", category: "Books", price: 579.00, isbn: "7777", country: "US" } )
+db.product.insert( { productID: 407, description: "Java", category: "Books", price: 579.00, isbn: "8888", country: "US" } )
+db.product.insert( { productID: 408, description: "MongoDB ", category: "Books", price: 579.00, isbn: "9999", country: "US" } )
+db.product.insert( { productID: 409, description: "RDBMS ", category: "Books", price: 579.00, isbn: "1234", country: "US" } )
+
+
+
+
