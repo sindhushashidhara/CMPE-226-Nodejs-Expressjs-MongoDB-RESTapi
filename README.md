@@ -37,6 +37,8 @@ Books - ProductID, Description, Category, Price, ISBN, Country
 Quick Start
 -	Install Nodejs
 -	Install MongoDB
+-	Create nodetest1 database and product collection
+-	Insert 10 documents for each tv, refrigertor, nail polish, books into product collection
 -	Install Express 
 -	Create an Express project nodetest1
 -	Edit dependencies in package.json
