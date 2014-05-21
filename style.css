@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00G7HF;
+}
+div { float : right; }
+span { float : right; margin-right : 380px;}
+h1 { color: #092383;}
+h2 { color: ##568; }
+body { background : pink;}
+a { color: #00GF3;} 
