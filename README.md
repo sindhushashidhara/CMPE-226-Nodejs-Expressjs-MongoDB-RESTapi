@@ -62,5 +62,7 @@ o	Tv.jade
 -	package.json - package info for tutorial project
 - style.css
 - MongoDB Product collection - queries to insert 40 documents into Product collection
+
+
 References
 http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
