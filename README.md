@@ -59,3 +59,7 @@ o	Mainscreen.jade
 o	Nailpolish.jade
 o	Tv.jade
 -	package.json - package info for tutorial project
+
+
+References
+http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/
