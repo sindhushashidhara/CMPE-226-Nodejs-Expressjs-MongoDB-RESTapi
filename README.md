@@ -45,3 +45,17 @@ Quick Start
 -	Install dependencies  > npm install
 -	Test the server by running npm start
 
+Contents
+-	README.md - this file
+-	app.js - central app file, connection to mongodb, development and product error handlers
+-	/public – css stylesheet
+-	/routes - route files 
+o	Index.js – to pull the data from mongodb and display it
+o	User.js
+-	/views - views 
+o	Books.jade
+o	Error.jade
+o	Mainscreen.jade
+o	Nailpolish.jade
+o	Tv.jade
+-	package.json - package info for tutorial project
